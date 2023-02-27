@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'GreekHouse';
+    src: url(fontes/GreekHouse\ Symbolized_Free.ttf) format('truetype');
+}
+
+:root {
+    --fonte-titulo: 'GreekHouse', arial, verdana, helvetica, sans-serif ; 
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.877);
+    font-family: var(--fonte-titulo);
+
+}
+
+
+nav {
+    padding: 1.3rem;
+    background-color: rgba(148, 148, 44, 0.356);
+}
+
+nav  > a{
+    align-content: center;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: rgba(143, 123, 10, 0.589);
+    color: rgb(0, 0, 0);
+    border-radius: 61px 61px 61px 61px;
+    box-shadow: 7px 9px 34px -15px rgba(0,0,0,0.93);
+    transition-duration: 0.5S;
+}
+
+section  {
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container {  
+    display: flex;
+    flex-direction: row;
+  }
+
+.content {
+    columns: 27rem auto;
+    
+}
+
+.img {
+    max-width: 25%;
+}
+
+.img2 {
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+section > div {
+    padding: 10px;
+    background-color: rgba(201, 195, 160, 0.26);
+}
+
+footer {
+    background-color: rgba(148, 148, 44, 0.356);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+
+footer a {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(87, 81, 47);
+}
